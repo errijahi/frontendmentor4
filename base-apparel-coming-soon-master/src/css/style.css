@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.box .text {
+  width: 60%;
+}
+
+.box .text .patterndesktop {
+  width: 100%;
+  height: 100%;
+}
+
+.box .text .zindex {
+  z-index: 1;
+  display: relative;
+  transform: translateY(-95vh);
+  margin-left: 11.7vw;
+  margin-top: 5vh;
+  width: 38%;
+  max-height: 10vw;
+}
+
+.box .text .zindex .logo {
+  width: 8.3vw;
+}
+
+.box .text .zindex .title1 {
+  margin-top: 8vw;
+  color: #ce9797;
+  font-weight: 300;
+  font-size: 4vw;
+  text-transform: uppercase;
+  letter-spacing: 1vw;
+}
+
+.box .text .zindex .title2 {
+  color: #413a3a;
+  font-size: 5vw;
+  font-weight: 400;
+  margin-top: -2.5vw;
+  text-transform: uppercase;
+  letter-spacing: 1vw;
+}
+
+.box .text .zindex .title3 {
+  color: #413a3a;
+  font-size: 5vw;
+  font-weight: 400;
+  margin-top: -2.5vw;
+  text-transform: uppercase;
+  letter-spacing: 1vw;
+}
+
+.box .text .zindex .bodytext {
+  color: #ce9797;
+  line-height: 1.6;
+  margin-top: -3vw;
+  font-size: 0.84vw;
+}
+
+.box .text .zindex input {
+  margin-top: 8vw;
+  border-radius: 30px;
+  border: solid silver 0.1vw;
+  height: 2.3vw;
+  width: 21vw;
+  outline: none;
+  padding: 0.2vw;
+  padding-left: 1.5vw;
+}
+
+.box .text .zindex ::placeholder {
+  color: #ce9797;
+  opacity: 0.5;
+  font-size: 0.84vw;
+}
+
+.box .text .zindex input:focus {
+  border-color: #f96262;
+  border-width: 0.15vw;
+  padding: 0.15vw;
+  padding-left: 1.5vw;
+}
+
+.box .text .zindex button {
+  width: 5.5vw;
+  height: 3.1vw;
+  background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  border-radius: 35px;
+  border: solid gray 0px;
+  transform: translateY(-3vw);
+  margin-left: 18vw;
+  box-shadow: 0 4px 8px 0 rgba(238, 140, 140, 0.2), 0 15px 20px 0 rgba(238, 140, 140, 0.4);
+}
+
+.box .text .zindex button:hover {
+  cursor: pointer;
+  background-image: linear-gradient(135deg, #faeeee, #fab4b4);
+  box-shadow: 0 8px 8px 0 rgba(238, 140, 140, 0.4), 0 15px 20px 0 rgba(238, 140, 140, 0.4);
+}
+
+.box .text .zindex .arrow {
+  width: 0.8vw;
+}
+
+.box .herodesktp {
+  width: 40%;
+  min-height: 50vw;
+}
+
+.box .heromobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1250px) {
+  .box {
+    flex-direction: column-reverse;
+    height: 105vw;
+    width: 100%;
+  }
+  .box .herodesktp {
+    display: none;
+  }
+  .box .heromobile {
+    display: block;
+    height: 60%;
+    width: 100%;
+    margin-top: 10vw;
+  }
+  .box .text {
+    width: 100vw;
+    height: 60%;
+    flex-grow: 40vw;
+  }
+  .box .text .patterndesktop {
+    display: none;
+  }
+  .box .text .zindex {
+    z-index: 0;
+    transform: translateY(0vw);
+    margin-left: 25.7vw;
+    margin-top: 5vw;
+  }
+  .box .text .zindex .logo {
+    width: 18vw;
+    height: 4vw;
+    display: block;
+    position: absolute;
+    margin-top: -86vw;
+    margin-left: -15vw;
+  }
+  .box .text .zindex .title1 {
+    margin-top: 16vw;
+    color: #ce9797;
+    font-weight: 300;
+    font-size: 8vw;
+    text-transform: uppercase;
+    letter-spacing: 2vw;
+    margin-left: 8vw;
+  }
+  .box .text .zindex .title2 {
+    color: #413a3a;
+    font-size: 8vw;
+    font-weight: 400;
+    margin-top: -2.5vw;
+    text-transform: uppercase;
+    letter-spacing: 2vw;
+    margin-left: 3vw;
+  }
+  .box .text .zindex .title3 {
+    color: #413a3a;
+    font-size: 8vw;
+    font-weight: 400;
+    margin-top: -2.5vw;
+    text-transform: uppercase;
+    letter-spacing: 2vw;
+    margin-left: 9vw;
+  }
+  .box .text .zindex .bodytext {
+    color: #ce9797;
+    line-height: 1.6;
+    margin-top: 0vw;
+    font-size: 3vw;
+    width: 65vw;
+    text-align: center;
+    margin-left: -9vw;
+  }
+  .box .text .zindex input {
+    margin-top: 16vw;
+    margin-left: -6vw;
+    border-radius: 45px;
+    border: solid silver 0.1vw;
+    height: 5.5vw;
+    width: 55vw;
+    outline: none;
+    padding: 0vw;
+    padding: 0.2vw;
+    padding-left: 3vw;
+    font-size: 2vw;
+  }
+  .box .text .zindex ::placeholder {
+    color: #ce9797;
+    opacity: 0.5;
+    font-size: 1.84vw;
+  }
+  .box .text .zindex input:focus {
+    border-color: #f96262;
+    border-width: 0.20vw;
+    padding: 0.15vw;
+    padding-left: 3vw;
+  }
+  .box .text .zindex button {
+    width: 8.5vw;
+    height: 6.5vw;
+    background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+    border-radius: 40px;
+    border: solid gray 0px;
+    transform: translateY(-6.3vw);
+    margin-left: 44.2vw;
+    box-shadow: 0 4px 8px 0 rgba(238, 140, 140, 0.2), 0 15px 20px 0 rgba(238, 140, 140, 0.4);
+  }
+  .box .text .zindex button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(135deg, #faeeee, #fab4b4);
+    box-shadow: 0 8px 8px 0 rgba(238, 140, 140, 0.4), 0 15px 20px 0 rgba(238, 140, 140, 0.4);
+  }
+  .box .text .zindex .arrow {
+    width: 1.6vw;
+  }
+}

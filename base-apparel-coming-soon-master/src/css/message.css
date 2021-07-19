@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+.iconerror {
+  margin-left: 16vw;
+  transform: translateY(-5.2vw);
+  width: 1.3vw;
+}
+
+.errormessage {
+  transform: translateY(-5vw);
+  position: absolute;
+  color: #f96262;
+  font-size: 0.84vw;
+}
+
+@media only screen and (max-width: 1250px) {
+  .iconerror {
+    margin-left: 40vw;
+    transform: translateY(-11.1vw);
+    width: 3vw;
+  }
+  .errormessage {
+    transform: translateY(-11vw);
+    position: absolute;
+    color: #f96262;
+    font-size: 2.5vw;
+  }
+}

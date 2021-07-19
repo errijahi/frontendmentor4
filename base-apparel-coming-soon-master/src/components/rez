@@ -1,0 +1,46 @@
+import React, { useState } from 'react';
+import  iconerror from '../images/icon-error.svg';
+import  '../css/message.css'
+
+import arrow from '../images/icon-arrow.svg';
+
+import validator from 'validator';
+
+import { useForm } from 'react-hook-form';
+
+export default function Evalitator() {
+
+    
+    const [inputField, setInputField] = useState({
+        email: ''
+    })
+
+    const inputHandler = (e) =>{
+        setInputField( {[e.target.name]: e.target.value})
+    }
+
+    
+    const submitButton = () =>{
+        
+    }
+
+    return (
+       <span>
+           <h2>Validating Email</h2>
+           <span>Enter Email</span>
+           <input type="text" id="userEmail" onChange={(e) => validateEmail(e)}></input>
+           <button  onClick={submitButton}> <img className="arrow" src={arrow} alt="arrow" /></button>
+           {emailError}
+       </span>
+    )
+}
+
+
+
+
+
+{/* <div>
+<p className="errormessage">Please provide a valid email</p>
+<img className="iconerror" src= {iconerror} alt="icon-error"/>
+
+</div> */}
