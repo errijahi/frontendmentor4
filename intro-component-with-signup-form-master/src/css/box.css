@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  color: White;
+  width: 50%;
+  margin-top: 15vw;
+  padding-left: 10vw;
+}
+
+.text h1 {
+  width: 75%;
+  font-size: 3.5vw;
+  line-height: 3.5vw;
+}
+
+.text p {
+  width: 91%;
+  font-size: 1.18vw;
+}
+
+.text .paragraph {
+  margin-top: 2vw;
+  line-height: 1.6vw;
+}
+
+.boxes {
+  margin-top: 6vw;
+  width: 36%;
+}
+
+.boxes .box {
+  background-color: #6055a5;
+  text-align: center;
+  color: White;
+  padding: 1vw;
+  font-size: 1.2vw;
+  border-radius: 15px;
+  box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.boxes .box p {
+  display: inline;
+}
+
+.boxes .box .ad {
+  font-weight: 600;
+}
+
+.boxes .form {
+  background-color: White;
+  margin-top: 2vw;
+  width: 36vw;
+  border-radius: 10px;
+  box-shadow: 0px 9px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 1245px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    margin-left: 5vw;
+  }
+  .text h1 {
+    font-size: 8vw;
+    width: 70vw;
+    line-height: 10.5vw;
+  }
+  .text p {
+    font-size: 4.5vw;
+    width: 95vw;
+  }
+  .text .paragraph {
+    margin-top: 2vw;
+    margin-left: -10vw;
+    line-height: 4.5vw;
+    width: 90vw;
+    text-align: center;
+  }
+  .boxes {
+    margin-left: 7vw;
+  }
+  .boxes .box {
+    width: 87vw;
+    font-size: 1.2vw;
+  }
+  .boxes .box .wi {
+    width: 40vw;
+    margin-left: 24vw;
+  }
+  .boxes .box .restofad {
+    font-size: 3.2vw;
+  }
+  .boxes .box .ad {
+    font-weight: 600;
+    font-size: 3.2vw;
+  }
+  .boxes .form {
+    background-color: White;
+    margin-top: 5vw;
+    width: 87vw;
+    border-radius: 10px;
+    box-shadow: 0px 9px 0px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3vw;
+  }
+}

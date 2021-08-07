@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+input {
+  margin-left: 3vw;
+  width: 30vw;
+  height: 3vw;
+  margin-top: 1vw;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.233);
+  outline: none;
+  padding: 1vw;
+  padding-right: 3vw;
+  font-size: 0.9vw;
+  font-family: "Poppins", sans-serif;
+}
+
+input::placeholder {
+  margin-left: 10vw;
+}
+
+input:focus {
+  border-color: #3e3c49;
+}
+
+button {
+  margin-left: 3vw;
+  width: 30vw;
+  height: 3vw;
+  margin-top: 1vw;
+  text-transform: uppercase;
+  background-color: #38cc8c;
+  border-color: #38cc8c;
+  border-width: 1px;
+  border-bottom-width: 3px;
+  border-radius: 5px;
+  color: White;
+  font-weight: 600;
+  font-size: 1vw;
+  margin-bottom: 0.5vw;
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+p {
+  display: inline;
+}
+
+.smalltext {
+  padding-bottom: 2.5vw;
+}
+
+.text2 {
+  margin-left: 6vw;
+  color: #b9b6d3;
+  font-size: 0.7vw;
+}
+
+.terms {
+  color: #ff7a7a;
+  font-size: 0.7vw;
+  font-weight: 700;
+  background-color: White;
+}
+
+.inputname {
+  margin-top: 3vw;
+}
+
+.errormessage {
+  color: #ff7a7a;
+  display: block;
+  float: right;
+  margin-right: 3vw;
+  font-size: 0.8vw;
+  font-weight: 500;
+  margin-top: 0.5vw;
+  margin-bottom: 0.1vw;
+}
+
+.inputnameerror {
+  border-color: #ff7a7a;
+}
+
+.inputnameerror:focus {
+  border-color: #ff7a7a;
+}
+
+.inputnameerrorhight {
+  border-color: #ff7a7a;
+  margin-top: 3vw;
+}
+
+.inputnameerrorhight:focus {
+  border-color: #ff7a7a;
+}
+
+.error-image {
+  margin-top: -2.8vw;
+  margin-left: 9vw;
+  position: absolute;
+  width: 1.5vw;
+}
+
+.error-image2 {
+  margin-top: -2.8vw;
+  margin-left: 7vw;
+  position: absolute;
+  width: 1.5vw;
+}
+
+.error-image3 {
+  margin-top: -2.8vw;
+  margin-left: 9.25vw;
+  position: absolute;
+  width: 1.5vw;
+}
+
+@media screen and (max-width: 1245px) {
+  input {
+    width: 80vw;
+    height: 6vw;
+    font-size: 1.7vw;
+    padding-right: 7vw;
+  }
+  button {
+    width: 80vw;
+    height: 6vw;
+    font-size: 1.7vw;
+    margin-bottom: 1vw;
+  }
+  .text2 {
+    font-size: 1.3vw;
+  }
+  .terms {
+    font-size: 1.3vw;
+  }
+  .smalltext {
+    padding-bottom: 2.5vw;
+    width: 35vw;
+    text-align: center;
+    margin-left: 26vw;
+  }
+  .errormessage {
+    font-size: 1.5vw;
+    margin-right: 4.5vw;
+  }
+  .error-image {
+    margin-top: -5.5vw;
+    margin-left: 16vw;
+    width: 3.5vw;
+  }
+  .error-image2 {
+    margin-top: -5.4vw;
+    margin-left: 12vw;
+    width: 3.5vw;
+  }
+  .error-image3 {
+    margin-top: -5.4vw;
+    margin-left: 16.2vw;
+    width: 3.5vw;
+  }
+}
