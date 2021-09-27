@@ -5,7 +5,7 @@ import '../css/form.css';
 export default function Message() {
     return (
         <div>
-            <img className="error-image2" src={image} alt="image-error2"/>
+            <img className="error-image0 error-image2" src={image} alt="error2"/>
         </div>
     )
 }

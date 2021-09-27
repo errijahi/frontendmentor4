@@ -2,48 +2,50 @@
 .main {
   display: flex;
   flex-direction: row;
+  min-height: 100vh;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .text {
   color: White;
-  width: 50%;
-  margin-top: 15vw;
-  padding-left: 10vw;
+  width: 50em;
 }
 
 .text h1 {
-  width: 75%;
-  font-size: 3.5vw;
-  line-height: 3.5vw;
+  font-size: 4.5em;
+  line-height: 1em;
 }
 
 .text p {
-  width: 91%;
-  font-size: 1.18vw;
+  font-size: 1.5em;
 }
 
 .text .paragraph {
-  margin-top: 2vw;
-  line-height: 1.6vw;
+  margin-top: 1.5em;
+  line-height: 2em;
 }
 
 .boxes {
-  margin-top: 6vw;
-  width: 36%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40em;
+  margin-bottom: 1em;
 }
 
 .boxes .box {
   background-color: #6055a5;
   text-align: center;
   color: White;
-  padding: 1vw;
-  font-size: 1.2vw;
-  border-radius: 15px;
+  padding: 1em;
+  font-size: 1.2em;
+  border-radius: 10px;
   box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.2);
-}
-
-.boxes .box p {
-  display: inline;
+  width: 99%;
+  margin-bottom: 2.5em;
+  margin-top: 1em;
 }
 
 .boxes .box .ad {
@@ -51,61 +53,75 @@
 }
 
 .boxes .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   background-color: White;
-  margin-top: 2vw;
-  width: 36vw;
+  min-height: 35em;
+  width: 99%;
+  padding-top: 1em;
   border-radius: 10px;
   box-shadow: 0px 9px 0px 0px rgba(0, 0, 0, 0.1);
 }
 
-@media screen and (max-width: 1245px) {
+@media screen and (max-width: 1342px) {
   .main {
-    display: flex;
     flex-direction: column;
+    align-items: unset;
+    justify-content: unset;
   }
   .text {
-    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 6em;
   }
   .text h1 {
-    font-size: 8vw;
-    width: 70vw;
-    line-height: 10.5vw;
+    text-align: center;
+    font-size: 2em;
   }
+
+  .h1-title {
+    width: 12em;
+  }
+
   .text p {
-    font-size: 4.5vw;
-    width: 95vw;
+    font-size: 1.1em;
   }
   .text .paragraph {
-    margin-top: 2vw;
-    margin-left: -10vw;
-    line-height: 4.5vw;
-    width: 90vw;
-    text-align: center;
+    line-height: 1.5em;
+    width: 21.25em;
   }
+
   .boxes {
-    margin-left: 7vw;
+    width: 100%;
+    margin-top: 5em;
+    margin-bottom: 5em;
   }
   .boxes .box {
-    width: 87vw;
-    font-size: 1.2vw;
+    display: flex;
+    justify-content: center;
+    width: 18em;
   }
   .boxes .box .wi {
-    width: 40vw;
-    margin-left: 24vw;
+    width: 11em;
   }
+
   .boxes .box .restofad {
-    font-size: 3.2vw;
+    font-size: 1em;
   }
   .boxes .box .ad {
     font-weight: 600;
-    font-size: 3.2vw;
+    font-size: 1em;
   }
   .boxes .form {
     background-color: White;
-    margin-top: 5vw;
-    width: 87vw;
-    border-radius: 10px;
-    box-shadow: 0px 9px 0px 0px rgba(0, 0, 0, 0.1);
-    margin-bottom: 3vw;
+
+    width: 21.5em;
+    padding-top: 0em;
   }
 }
